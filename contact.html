@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <title>Idan Prajapati</title>
+    </head>
+    <body>
+        <table align="center" width="1150px" cellpadding="4" cellspacing="4">
+                <tr>
+                        <td><img src="images/logo.png"></td>
+                        <td><img src="images/banner.png"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <b><a href="Idan.html">HOME |</a>
+                            <a href="about.html">ABOUT |</a>
+                            <a href="contact.html">CONTACT</a></b>               
+                         </td>
+                    </tr>
+        </table>
+        <form name="FrmReg" action="#" method="POST" enctype="multiport">
+            <fieldset>
+                <legend>CONTACT</legend>
+                <table border="0" cellpadding="5" cellspacing="5" width="1150px" align="center">                        
+                    <tr>
+                        <td>User</td>
+                        <td>
+                            <input type="text" name="username" size="20" maxlength="50" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="password" size="20" maxlength="50" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>
+                            <input type="email" name="email" size="20" maxlength="50" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DOB</td>
+                        <td>
+                            <input type="date" name="DOB" size="20" maxlength="50" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value="M" required/>Male
+                            <input type="radio" name="gender" value="F"/>Female
+                            <input type="radio" name="gender" value="O"/>Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td>
+                            <select size="1" name="city">
+                                <option value="SELECT">--SELECT--</option>
+                                <option value="BKT">Bhaktapur</option>
+                                <option value="KTM">Kathmandu</option>
+                                <option value="PATAN">Lagankhel</option>
+                                <option value="nagarkot">Nagarkot</option>
+                                <option value="changu">Changunarayan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Course</td>
+                        <td>
+                            <input type="checkbox" name="PHP" value="php"/>PHP
+                            <input type="checkbox" name="ASP" value="asp"/>ASP
+                            <input type="checkbox" name="JAVA" value="java"/>JAVA
+                            <input type="checkbox" name="WEB" value="web"/>WEB
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Photo</td>
+                        <td>
+                            <input type="file" name="upload" required/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td>
+                            <textarea name="message" rowpsan="5" colspan="30"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" value="Register"/>
+                            <input type="reset" name="reset" value="Clear"/>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <table width="1150px" align="center">
+        <tr><td>&copy;2019,www.mancity.com,All Rights Reserved.</td>
+        <td><p align="right"><a href="#top" title="Go To Top">^TOP</a></p></td>
+        </tr>
+        </table>
+    </body>
+</HTML>
